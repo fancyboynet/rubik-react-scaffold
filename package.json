@@ -17,6 +17,22 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "cross-env": "^5.2.0",
+    "husky": "^3.0.0",
+    "lint-staged": "^9.1.0",
     "rubik-cli": "^0.0.12"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "post-merge": "rubik check-package",
+      "post-checkout": "rubik check-package"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "rubik lint",
+      "git add"
+    ]
   }
 }
