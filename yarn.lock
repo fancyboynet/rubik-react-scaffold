@@ -7511,10 +7511,10 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rubik-cli@^0.0.14:
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/rubik-cli/-/rubik-cli-0.0.14.tgz#e575b64c2c0cbecb92471d64e3c5c6ca0e025dc6"
-  integrity sha512-B6g49VJkGz+1IGdKn9LTV9rAvMWbMjX/mrpHRmE5eu0oHfQP+8yZYmjS0DMzTgrGrMlGWLQyA86qCWligTzJNA==
+rubik-cli@^0.0.20:
+  version "0.0.20"
+  resolved "https://registry.yarnpkg.com/rubik-cli/-/rubik-cli-0.0.20.tgz#2286f04b0499e7b5f0ab9dfe202e32b6b142831f"
+  integrity sha512-tga+MHuwFcbA3l+Lc15CfBOyUtqjDrRe1cu9h6otfM/Mja+a5th0CwOOG4o1xF3UcNk6qCUCOIlrw1A07VFx+A==
   dependencies:
     "@babel/core" "^7.5.5"
     "@babel/plugin-proposal-object-rest-spread" "^7.5.5"
