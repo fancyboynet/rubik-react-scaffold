@@ -13,14 +13,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0",
-    "husky": "^3.0.0",
-    "lint-staged": "^9.1.0",
-    "rubik-cli": "^0.6.0"
+    "cross-env": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "rubik-cli": "latest"
   },
   "husky": {
     "hooks": {
